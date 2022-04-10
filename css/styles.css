@@ -297,7 +297,7 @@ img {
   margin-bottom: 30px;
 }
 
-.cart_text {
+.pers_cart .cart_text {
   padding-top: 30px;
   padding-right: auto;
   padding-bottom: 30px;
@@ -417,8 +417,11 @@ img {
   width: 370px;
   border: 1px solid var(--pf-cart-border-color);
   box-sizing: border-box;
-  text-align: center;
   margin: 15px;
+}
+
+.pf_cart .cart_text {
+  padding: 20px 24px;
 }
 
 .pf_cart .link {
