@@ -307,9 +307,7 @@ img {
 
 .pers_cart .cart_text {
   padding-top: 30px;
-  padding-right: auto;
   padding-bottom: 30px;
-  padding-left: auto;
 }
 .pers_cart .name {
   font-weight: 500;
@@ -432,10 +430,13 @@ img {
 }
 
 .cart_text {
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
   padding-top: 20px;
   padding-right: 24px;
   padding-bottom: 20px;
-  padding-right: 24px;
+  padding-left: 24px;
 }
 
 .pf_cart .link {
